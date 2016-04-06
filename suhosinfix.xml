@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" method="upgrade" group="system">
+	<name>System - Suhosin fix</name>
+	<author>Izhar Aazmi</author>
+	<creationDate>March 29, 2016</creationDate>
+	<copyright>Copyright (C) 2016, Bhartiy Web Technologies. All rights reserved.</copyright>
+	<license>GNU/GPL v3+</license>
+	<authorEmail>info@bhartiy.com</authorEmail>
+	<authorUrl>www.bhartiy.com</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[
+<div style="background: #f7ccca; border-radius: 5px; padding: 10px;">
+	<h2>Workaround Only! Read below everyday for a healthy website experience!</h2>
+	<p>Workaround for the issue caused by some versions of suhosin.
+	For details see this <a href="https://github.com/joomla/joomla-cms/issues/8421">Joomla Issue</a></p>
+	<p>To see if you at all need this plugin or not, you can <a href="https://github.com/joomla/joomla-cms/issues/8421#issuecomment-172896473">perform
+	this test</a> on your hosting server and <a href="https://github.com/joomla/joomla-cms/issues/8421#issuecomment-173149108">match your result with
+	this</a>.</p>
+	<p><strong>Please note that this is just a workaround in case you can't update your suhosin version.
+	It is advised that you disable/uninstall this plugin after your have fixed version of suhosin installed.</strong></p>
+</div>
+	]]></description>
+	<files>
+		<filename plugin="suhosinfix">suhosinfix.php</filename>
+		<filename>index.html</filename>
+		<filename>README.md</filename>
+		<filename>LICENSE</filename>
+	</files>
+	<config>
+	</config>
+</extension>
